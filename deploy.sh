@@ -28,20 +28,11 @@ kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-k8s-fundament
 
 # **Load container basiscs**
 
-# # Load the workshop def
-# kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-container-basics/master/resources/workshop.yaml
+# Load the workshop def, change to raw url of your repo to the workshop.yml
+kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-container-basics/master/resources/workshop.yaml
 
-# # Deploy sample tarining portal
-# kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-container-basics/master/resources/training-portal.yaml
-
-
-# kubectl apply -f /Users/itarin/workspace/lab-rabbitmq-gs/resources/workshop.yaml && \
-
-# kubectl apply -f /Users/itarin/workspace/lab-rabbitmq-gs/resources/training-portal.yaml
-
-kubectl apply -f /Users/itarin/workspace/lab-spring-gateway/resources/workshop.yaml && \
-
-kubectl apply -f /Users/itarin/workspace/lab-spring-gateway/resources/training-portal.yaml
+# Deploy a sample tarining portal, change to raw url of your repo training-portal.yaml
+kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-container-basics/master/resources/training-portal.yaml
 
 
     

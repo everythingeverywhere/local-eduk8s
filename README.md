@@ -14,11 +14,15 @@ Deploy the minkube cluster and [eduk8s](https://docs.eduk8s.io/):
 cd ./local-eduks8 && ./deploy.sh
 ```
 
-If desired you can check eduk8s with:
+> Add or delete workshops in `deploy.sh` at the bottom of the file like the example.
+
+You can check eduk8s and retrieve the training session and password  with:
 
 ```
 /.deploy_check.sh
 ```
+
+
 
 Delete the cluster and eduk8s
 
