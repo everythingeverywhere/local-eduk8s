@@ -1,2 +1,15 @@
 # local-eduk8s
-stand up eduk8s locally on minikube
+To stand up eduk8s locally on minikube
+
+
+Clone GitHub repo:
+
+```copy
+git clone
+```
+
+Deploy the script inside the repo:
+
+```copy
+cd ./local-eduks8 && sh deploy.sh
+```

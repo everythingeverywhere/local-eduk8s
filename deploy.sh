@@ -21,8 +21,27 @@ kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-k8s-fundament
 
 
 # Creating the workshop TRAINING PORTAL
-kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-k8s-fundamentals/master/resources/training-portal.yaml
+kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-k8s-fundamentals/master/resources/training-portal.yaml && \
 
 # To create the workshop environment run: 
-kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-k8s-fundamentals/master/resources/workshop-environment.yaml
+kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-k8s-fundamentals/master/resources/workshop-environment.yaml && \
 
+# **Load container basiscs**
+
+# # Load the workshop def
+# kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-container-basics/master/resources/workshop.yaml
+
+# # Deploy sample tarining portal
+# kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-container-basics/master/resources/training-portal.yaml
+
+
+# kubectl apply -f /Users/itarin/workspace/lab-rabbitmq-gs/resources/workshop.yaml && \
+
+# kubectl apply -f /Users/itarin/workspace/lab-rabbitmq-gs/resources/training-portal.yaml
+
+kubectl apply -f /Users/itarin/workspace/lab-spring-gateway/resources/workshop.yaml && \
+
+kubectl apply -f /Users/itarin/workspace/lab-spring-gateway/resources/training-portal.yaml
+
+
+    
