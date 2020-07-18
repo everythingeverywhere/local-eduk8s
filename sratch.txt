@@ -1,9 +1,0 @@
-
-# kubectl apply -f /Users/itarin/workspace/lab-rabbitmq-gs/resources/workshop.yaml && \
-
-# kubectl apply -f /Users/itarin/workspace/lab-rabbitmq-gs/resources/training-portal.yaml
-
-kubectl apply -f /Users/itarin/workspace/lab-spring-gateway/resources/workshop.yaml && \
-
-kubectl apply -f /Users/itarin/workspace/lab-spring-gateway/resources/training-portal.yaml
-
