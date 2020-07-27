@@ -19,7 +19,7 @@ cd ./local-eduks8 && ./deploy.sh
 You can check eduk8s and retrieve the training session and password  with:
 
 ```
-/.deploy_check.sh
+./deploy_check.sh
 ```
 
 
