@@ -4,7 +4,7 @@ You can use the bash scripts in the local-eduk8s repo to install eduk8s locally 
 Clone the GitHub repo:
 
 ```copy
-git clone
+git clone https://github.com/everythingeverywhere/local-eduk8s.git
 ```
 
 > To load more workshops into eduk8s append `kubectl apply -f` refering to the path of the `resources/training-portal.yml` and `resources/workshop.yml` in the script. You can follow the example within the script.
