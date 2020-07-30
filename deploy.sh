@@ -1,5 +1,5 @@
 # Create local cluster
-minikube start --kubernetes-version=v1.17.8 && \
+minikube start --cpus 4 --memory 8192 --kubernetes-version=v1.17.8 && \
 
 # Enable the NGINX Ingress controller
 minikube addons enable ingress && \
@@ -28,11 +28,13 @@ kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-k8s-fundament
 
 # **Load container basiscs**
 
-# Load the workshop def, change to raw url of your repo to the workshop.yml
-kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-container-basics/master/resources/workshop.yaml
+# # Load the workshop def, change to raw url of your repo to the workshop.yml
+# kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-container-basics/master/resources/workshop.yaml
 
-# Deploy a sample tarining portal, change to raw url of your repo training-portal.yaml
-kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-container-basics/master/resources/training-portal.yaml
+# # Deploy a sample tarining portal, change to raw url of your repo training-portal.yaml
+# kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-container-basics/master/resources/training-portal.yaml
 
 
-    
+kubectl apply -f /Users/itarin/workspace/lab-spring-gateway/resources/workshop.yaml && \
+
+kubectl apply -f /Users/itarin/workspace/lab-spring-gateway/resources/training-portal.yaml
