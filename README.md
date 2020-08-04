@@ -7,7 +7,9 @@ Clone the GitHub repo:
 git clone https://github.com/everythingeverywhere/local-eduk8s.git
 ```
 
-> To load more workshops into eduk8s append `kubectl apply -f` refering to the path of the `resources/training-portal.yml` and `resources/workshop.yml` in the script. You can follow the example within the script.
+To load more workshops into eduk8s append the `kubectl apply -f` command  to the script refering to the path of the `resources/training-portal.yml` and `resources/workshop.yml` to the script. You can follow the example within the script. 
+
+> Some workshops require installing tools and might require further steps to install. Make sure to read the instructions for the workshop.
 
 Deploy the minkube cluster and eduk8s with the script `deploy.sh` :
 
@@ -28,7 +30,7 @@ kubectl get trainingportals
 ```
 
 
-Delete the cluster and eduk8s
+Delete minikube
 
 ```copy
 ./delete.sh
